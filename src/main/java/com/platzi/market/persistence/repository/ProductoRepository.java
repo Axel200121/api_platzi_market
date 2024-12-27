@@ -1,4 +1,4 @@
-package com.platzi.market.persistence;
+package com.platzi.market.persistence.repository;
 
 import com.platzi.market.persistence.crud.ProductoCrudRepository;
 import com.platzi.market.persistence.entity.Producto;
