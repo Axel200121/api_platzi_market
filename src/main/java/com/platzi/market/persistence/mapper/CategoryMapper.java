@@ -21,7 +21,7 @@ public interface CategoryMapper {
 
     //ESTA ANOTACIÓN VA HACER EL INVERSO DE LA FUNCIÓN "TOCATEGORY"
     @InheritInverseConfiguration
-    @Mapping(target = "productos", ignore = true)
+    @Mapping(target = "productos", ignore = true) // esta anotación nos va servir para ignorar ese campo
     Categoria toCategory(Category category);
 
 
